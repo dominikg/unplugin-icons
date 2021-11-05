@@ -1,0 +1,464 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 14,
+    "total": 14,
+    "workspacePrefix": "/home/dominikg/develop/unplugin-icons"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vite-preact-icon-set",
+      "version": "0.0.0",
+      "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "serve": "vite preview"
+      },
+      "dependencies": {
+        "preact": "^10.5.14"
+      },
+      "devDependencies": {
+        "@iconify-json/logos": "^1.0.1",
+        "@preact/preset-vite": "^2.1.2",
+        "@svgr/core": "^5.5.0",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2",
+        "vite-plugin-inspect": "^0.3.8"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-preact"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "private": "true",
+      "type": "module",
+      "scripts": {
+        "build": "svelte-kit build",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+        "dev": "svelte-kit dev",
+        "preview": "svelte-kit preview"
+      },
+      "devDependencies": {
+        "@iconify-json/icon-park": "^1.0.1",
+        "@iconify-json/logos": "^1.0.1",
+        "@iconify-json/mdi": "^1.0.1",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.43.1",
+        "svelte-check": "^2.2.6",
+        "svelte-preprocess": "^4.9.7",
+        "tslib": "^2.3.1",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/sveltekit"
+  },
+  "3 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vite-react-icon-set",
+      "version": "0.0.0",
+      "private": true,
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+      },
+      "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+      },
+      "devDependencies": {
+        "@iconify-json/logos": "^1.0.1",
+        "@svgr/core": "^5.5.0",
+        "@types/react": "^17.0.26",
+        "@types/react-dom": "^17.0.9",
+        "@vitejs/plugin-react-refresh": "^1.3.6",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2",
+        "vite-plugin-inspect": "^0.3.8"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-react"
+  },
+  "4 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vite-template-solid-icon-set",
+      "version": "0.0.0",
+      "description": "",
+      "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+      },
+      "license": "MIT",
+      "devDependencies": {
+        "@iconify-json/mdi": "^1.0.1",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2",
+        "vite-plugin-solid": "^2.0.3"
+      },
+      "dependencies": {
+        "solid-js": "^1.1.5"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-solid"
+  },
+  "5 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "type": "module",
+      "scripts": {
+        "build": "cross-env DEBUG=unplugin-icons:* vite build",
+        "dev": "cross-env DEBUG=unplugin-icons:* vite"
+      },
+      "devDependencies": {
+        "@iconify-json/icon-park": "^1.0.1",
+        "@iconify-json/logos": "^1.0.1",
+        "@iconify-json/mdi": "^1.0.1",
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.26",
+        "@tsconfig/svelte": "^2.0.1",
+        "cross-env": "^7.0.3",
+        "svelte": "^3.43.1",
+        "svelte-check": "^2.2.6",
+        "svelte-preprocess": "^4.9.7",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-svelte"
+  },
+  "6 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+      },
+      "devDependencies": {
+        "@iconify-json/mono-icons": "^1.0.1",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-vanilla"
+  },
+  "7 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "type": "module",
+      "scripts": {
+        "build": "cross-env DEBUG=unplugin-icons:* vite build",
+        "dev": "cross-env DEBUG=unplugin-icons:* vite"
+      },
+      "devDependencies": {
+        "@iconify-json/icon-park": "^1.0.1",
+        "@iconify-json/logos": "^1.0.1",
+        "@iconify-json/mdi": "^1.0.1",
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.26",
+        "@tsconfig/svelte": "^2.0.1",
+        "cross-env": "^7.0.3",
+        "svelte": "^3.43.1",
+        "svelte-check": "^2.2.6",
+        "svelte-preprocess": "^4.9.7",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-svelte-custom"
+  },
+  "8 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "dev": "cross-env DEBUG=unplugin-icons:* vite",
+        "build": "vite build"
+      },
+      "dependencies": {
+        "vue": "^3.2.19"
+      },
+      "devDependencies": {
+        "@iconify-json/carbon": "^1.0.3",
+        "@iconify-json/fa-solid": "^1.0.1",
+        "@iconify-json/heroicons-outline": "^1.0.1",
+        "@iconify-json/ic": "^1.0.1",
+        "@iconify-json/icon-park": "^1.0.1",
+        "@iconify-json/logos": "^1.0.1",
+        "@iconify-json/mdi": "^1.0.1",
+        "@iconify-json/mdi-light": "^1.0.1",
+        "@iconify-json/noto-v1": "^1.0.1",
+        "@iconify-json/ri": "^1.0.1",
+        "@iconify-json/twemoji": "^1.0.1",
+        "@vitejs/plugin-vue": "^1.9.2",
+        "@vue/compiler-sfc": "^3.2.19",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "unplugin-vue-components": "^0.15.6",
+        "vite": "^2.6.2"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-vue3"
+  },
+  "9 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+      },
+      "dependencies": {
+        "vue": "^2.6.14"
+      },
+      "devDependencies": {
+        "@iconify-json/carbon": "^1.0.3",
+        "@iconify-json/fa-solid": "^1.0.1",
+        "@iconify-json/heroicons-outline": "^1.0.1",
+        "@iconify-json/ic": "^1.0.1",
+        "@iconify-json/logos": "^1.0.1",
+        "@iconify-json/mdi": "^1.0.1",
+        "@iconify-json/mdi-light": "^1.0.1",
+        "@iconify-json/noto-v1": "^1.0.1",
+        "@iconify-json/ri": "^1.0.1",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "unplugin-vue-components": "^0.15.6",
+        "vite": "^2.6.2",
+        "vite-plugin-vue2": "^1.8.2",
+        "vue-template-compiler": "^2.6.14",
+        "vue-template-es2015-compiler": "^1.9.1"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-vue2"
+  },
+  "10 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "dev": "cross-env DEBUG=unplugin-icons:* vite",
+        "build": "vite build"
+      },
+      "dependencies": {
+        "vue": "^3.2.19"
+      },
+      "devDependencies": {
+        "@iconify/json": "^1.1.409",
+        "@vitejs/plugin-vue": "^1.9.2",
+        "@vue/compiler-sfc": "^3.2.19",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "unplugin-vue-components": "^0.15.6",
+        "vite": "^2.6.2"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-vue3-legacy"
+  },
+  "11 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+      },
+      "devDependencies": {
+        "@iconify-json/ion": "^1.0.1",
+        "@iconify-json/mono-icons": "^1.0.1",
+        "unplugin-icons": "workspace:*",
+        "vite": "^2.6.2"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vite-web-components"
+  },
+  "12 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "nuxt-example",
+      "private": true,
+      "scripts": {
+        "build": "webpack"
+      },
+      "dependencies": {
+        "vue": "^3.2.19"
+      },
+      "devDependencies": {
+        "@iconify/json": "^1.1.409",
+        "unplugin-icons": "workspace:*",
+        "unplugin-vue2-script-setup": "^0.6.4",
+        "vue-template-compiler": "^2.6.14",
+        "vue-template-es2015-compiler": "^1.9.1",
+        "webpack": "^5.56.0",
+        "webpack-cli": "^4.8.0"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/webpack"
+  },
+  "13 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "unplugin-icons",
+      "version": "0.12.18",
+      "description": "Access thousands of icons as components on-demand universally",
+      "homepage": "https://github.com/antfu/unplugin-icons",
+      "bugs": "https://github.com/antfu/unplugin-icons/issues",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/antfu/unplugin-icons"
+      },
+      "funding": "https://github.com/sponsors/antfu",
+      "license": "MIT",
+      "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+      "exports": {
+        ".": {
+          "require": "./dist/index.js",
+          "import": "./dist/index.mjs"
+        },
+        "./*": "./*",
+        "./loaders": {
+          "require": "./dist/loaders.js",
+          "import": "./dist/loaders.mjs"
+        },
+        "./nuxt": {
+          "require": "./dist/nuxt.js",
+          "import": "./dist/nuxt.mjs"
+        },
+        "./resolver": {
+          "require": "./dist/resolver.js",
+          "import": "./dist/resolver.mjs"
+        },
+        "./rollup": {
+          "require": "./dist/rollup.js",
+          "import": "./dist/rollup.mjs"
+        },
+        "./types": {
+          "require": "./dist/types.js",
+          "import": "./dist/types.mjs"
+        },
+        "./vite": {
+          "require": "./dist/vite.js",
+          "import": "./dist/vite.mjs"
+        },
+        "./webpack": {
+          "require": "./dist/webpack.js",
+          "import": "./dist/webpack.mjs"
+        }
+      },
+      "main": "dist/index.js",
+      "module": "dist/index.mjs",
+      "types": "index.d.ts",
+      "files": [
+        "dist",
+        "types",
+        "*.d.ts"
+      ],
+      "scripts": {
+        "build": "tsup && esno scripts/postbuild.ts",
+        "dev": "tsup --watch src",
+        "example:build": "npm -C examples/vite-vue3 run build",
+        "example:dev": "npm -C examples/vite-vue3 run dev",
+        "lint": "eslint --ext .ts,.js,.vue",
+        "prepublishOnly": "npm run build",
+        "release": "npx bumpp --commit --tag --push && npm publish",
+        "test": "jest"
+      },
+      "dependencies": {
+        "@antfu/install-pkg": "^0.1.0",
+        "@antfu/utils": "^0.3.0",
+        "@iconify/utils": "^1.0.18",
+        "debug": "^4.3.2",
+        "kolorist": "^1.5.0",
+        "local-pkg": "^0.4.0",
+        "unplugin": "^0.2.18"
+      },
+      "devDependencies": {
+        "@antfu/eslint-config": "^0.10.0",
+        "@iconify/json": "^1.1.419",
+        "@iconify/types": "^1.0.10",
+        "@svgr/core": "^5.5.0",
+        "@types/debug": "^4.1.7",
+        "@types/jest": "^27.0.2",
+        "@types/node": "^16.11.4",
+        "@typescript-eslint/eslint-plugin": "^5.1.0",
+        "@vue/compiler-sfc": "^3.2.20",
+        "bumpp": "^7.1.1",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.1.0",
+        "eslint-plugin-jest": "^25.2.2",
+        "esno": "^0.10.1",
+        "jest": "^27.3.1",
+        "rollup": "^2.58.2",
+        "ts-jest": "^27.0.7",
+        "tsup": "^5.5.0",
+        "typescript": "^4.4.4",
+        "vite": "^2.6.11"
+      },
+      "peerDependencies": {
+        "@svgr/core": "^5.5.0",
+        "@vue/compiler-sfc": "^3.0.2",
+        "vue-template-compiler": "^2.6.12",
+        "vue-template-es2015-compiler": "^1.9.0"
+      },
+      "peerDependenciesMeta": {
+        "@svgr/core": {
+          "optional": true
+        },
+        "@vue/compiler-sfc": {
+          "optional": true
+        },
+        "vue-template-compiler": {
+          "optional": true
+        },
+        "vue-template-es2015-compiler": {
+          "optional": true
+        }
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons"
+  },
+  "14 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vue-cli",
+      "private": true,
+      "scripts": {
+        "dev": "vue-cli-service serve",
+        "build": "vue-tsc --noEmit && vue-cli-service build",
+        "lint": "vue-cli-service lint"
+      },
+      "dependencies": {
+        "@vue/composition-api": "^1.2.2",
+        "core-js": "^3.18.1",
+        "vue": "^2.6.14"
+      },
+      "devDependencies": {
+        "@iconify/json": "^1.1.409",
+        "@vue/cli-plugin-babel": "^4.5.13",
+        "@vue/cli-plugin-typescript": "^4.5.13",
+        "@vue/cli-service": "^4.5.13",
+        "typescript": "^4.4.3",
+        "unplugin-icons": "workspace:*",
+        "unplugin-vue2-script-setup": "^0.6.4",
+        "vue-template-compiler": "^2.6.14",
+        "vue-tsc": "^0.3.0"
+      }
+    },
+    "prefix": "/home/dominikg/develop/unplugin-icons/examples/vue-cli"
+  },
+  "15 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/dominikg/.pnpm-store/v3",
+    "virtualStoreDir": "/home/dominikg/develop/unplugin-icons/node_modules/.pnpm"
+  },
+  "16 info pnpm": {
+    "message": "Lockfile is up-to-date, resolution step is skipped",
+    "prefix": "/home/dominikg/develop/unplugin-icons"
+  },
+  "17 error pnpm": {
+    "code": "ERR_PNPM_OUTDATED_LOCKFILE",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot install with \"frozen-lockfile\" because pnpm-lock.yaml is not up-to-date with examples/vite-svelte-custom/package.json",
+      "code": "ERR_PNPM_OUTDATED_LOCKFILE",
+      "stack": "pnpm: Cannot install with \"frozen-lockfile\" because pnpm-lock.yaml is not up-to-date with examples/vite-svelte-custom/package.json\n    at exports2.default (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:111325:19)\n    at async _install (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:114993:15)\n    at async mutateModules (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:114959:22)\n    at async recursive (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:116802:29)\n    at async handler (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:117099:11)\n    at async /home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:133927:20\n    at async run (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:133902:34)\n    at async runPnpm (/home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:134113:5)\n    at async /home/dominikg/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:134105:7"
+    }
+  }
+}
